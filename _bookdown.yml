@@ -1,0 +1,15 @@
+output_dir: "docs"
+book_filename: "Dougherty-etal-OnTheLine"
+language:
+  label:
+    fig: "Image "
+chapter_name: "Chapter "
+output:
+  bookdown::gitbook:
+    dev: svglite
+    css: css/style.css
+    includes:
+      in_header: [custom-scripts.html, google-analytics-otl.html]
+    split_by: section
+    split_bib: true
+    number_sections: true
